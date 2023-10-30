@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -25,15 +26,24 @@ p {
   margin: 0;
 }
 header {
+display: flex;
+border: 3px solid orange;
+justify-content: space-between;
+  }
 
-  
+.logo-title {
+  display: flex;
 }
 
-.hero {
-  height: 700px;
-  max-width: 1500px;
+header *{
+  border: 3px solid red;
+}
+
+.hero-banner {
+  height: 500px;
+  width: 100%;
   margin-bottom: 25px;
-  background-image:url(images/02-hero-image.png);
+  background-image:url(../images/02-hero-image.png);
   background-size: cover;
   background-position: center;
   }
@@ -41,28 +51,84 @@ header {
   .navigation {
     position: absolute;
     list-style-type: none;
+  
   }
 
 .banner-text {
   position: absolute;
-  top: 62%;
+  top: 25%;
   padding: 20px;
   color: white; 
   font-size: x-large;
 
 }
 .navlinks {
- list-style: none;
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
- padding: 30px 10%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 400px;
+  padding-inline-start: 0px;
+ }
+
+ .navlinks li {
+  margin-left: 0px;
+  margin-right: 0px;
  }
 
 .about {
-  color: blueviolet;
   
 }
 
+.flexbox-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid orange;
+} 
 
+.flexbox-item-1 {
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  width: 2000px;
+  height: 600px;
+  margin: 10px;
+  border: 3px solid black;
+  
+}
+
+.flexbox-item-2, .flexbox-item-3, .flexbox-item-4 {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 3px solid black;
+  background-size: cover;
+  background-position: center;
+}
+
+.flexbox-item-2{
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flexbox-item-3{
+  background-image: url(../images/02-portfolio-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.flexbox-item-4{
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-links {
+  margin-left: 0px;
+  margin-right: 0px;
+  position: space-between;
+  list-style: none;
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cara-May's Portfolio</title>
-  <img class="logo" src="???" alt="C logo">
+  
   <div><link rel="stylesheet" href="./css/style.css" /></div>
 
 </head>
@@ -14,48 +14,59 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Cara-May's Portfolio</h1> 
-    <nav>
-      <ul class="navlinks">
-        <li> <a href="About Me">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href= "contact">Contact Me</a></li>
+    <div class="logo-title"> 
+      <img class="logo" src="???" alt="C logo">
+      <h1>Cara-May's Portfolio</h1> 
+    </div>
+      <nav>
+        <ul class="navlinks">
+          <li> <a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
   </header>
+ 
+   
 
   <!-- hero banner notes: how do I make the p's smaller? --> 
   <section class="hero-banner">
-    <div> 
-      <img src="images/02-hero-image.png" class="hero">
-    </div>
-
-    <div>
       <div class="banner-text">
-      <h1>Hi, I'm Cara and this is my portfolio!</h1>
-      <p> Get in touch!</p>
-      <p>cara@front-end.com</p>
-    </div>
-
+        <h1>Hi, I'm Cara and this is my portfolio!</h1>
+          <p> Get in touch!</p>
+          <p>cara@front-end.com</p>
   </section>
-
-  <main class="page-wrapper">
+    
     <!-- about me -->
-    <section class="about" id="about">
-      <h2>About Me</h2>
-      <p>Front-end developers are responsible for anything a user sees, hear and feels on a website. They also make sure that a website works well on different browsers, platforms and devices. Front-end development is a highly creative field that requires a deep understanding of UX design and CSS.</p>
-    </section>
+       <section class="about" id="about">
+        <h2>About Me</h2>
+          <p>Front-end developers are responsible for anything a user sees, hear and feels on a website. They also make sure that a website works well on different browsers, platforms and devices. Front-end development is a highly creative field that requires a deep understanding of UX design and CSS.</p>
+    
 
     <!-- portfolio container -->
     <section class="work" id="work">
       <h2>Work</h2>
     </section>
+      <section>
+        <div class="flexbox-container">
+        <div class="flexbox-item-1"></div>
+        <div class="flexbox-item-2"></div>
+        <div class="flexbox-item-3"></div>
+        <div class="flexbox-item-4"></div>
+      </section>
+
+   
 
     <!-- contact -->
     <section class="contact" id="contact">
       <h2>Contact Me</h2>
+      <ul class="contact-links">
+        <li> <a href="#email">Email</a></li>
+        <li><a href="#telephone">Telephone</a></li>
+        <li><a href="#calendly">Calendly Link</a></li>
+    </ul>
     </section>
-  </main>
-</body>
+      </main>
+  </body>
 
 </html>
