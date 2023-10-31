@@ -35,6 +35,10 @@ justify-content: space-between;
   display: flex;
 }
 
+.logo {
+
+}
+
 header *{
   border: 3px solid red;
 }
@@ -126,9 +130,24 @@ header *{
   background-position: center;
 }
 
+
+.contact h2 {
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
 .contact-links {
   margin-left: 0px;
   margin-right: 0px;
   position: space-between;
   list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0%
+}
+
+.contact-links li {
+  margin: 0 10px;
 }
