@@ -125,12 +125,26 @@ header * {
   background-position: center;
   margin-bottom: 100px;
 }
+
+.flexbox-container p {
+  color: aliceblue;
+}
+
 .flexbox-container2 {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   padding-top: 400px;
 }
+
+.flexbox-container2 p {
+  color: aliceblue;
+  display: flex;
+
+}
+
+
+
 .contact h2 {
   padding: 10px;
   padding-top: 10px;
