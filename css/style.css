@@ -31,8 +31,9 @@ header {
   display: flex;
 }
 .logo {
-  width: 120px;
+  width: 120px; 
 }
+
 header * {
   border: 3px solid red;
 }
@@ -107,8 +108,7 @@ header * {
   background-size: cover;
   background-position: center;
 }
-.car-text {
-}
+
 .flexbox-item-2 {
   background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
@@ -144,5 +144,4 @@ header * {
 .contact-links li {
   list-style: none;
   display: flex;
-  
-}
+  }
