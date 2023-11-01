@@ -1,18 +1,16 @@
-
 * {
   box-sizing: border-box;
 }
 .cmportfolio {
   position: fixed;
 }
-
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
-
 h1,
 h2,
 h3,
@@ -21,50 +19,41 @@ h5,
 h6 {
   margin: 0;
 }
-
 p {
   margin: 0;
 }
 header {
-display: flex;
-border: 3px solid orange;
-justify-content: space-between;
-  }
-
+  display: flex;
+  border: 3px solid orange;
+  justify-content: space-between;
+}
 .logo-title {
   display: flex;
 }
-
 .logo {
-width: 120px;
+  width: 120px;
 }
-
-header *{
+header * {
   border: 3px solid red;
 }
-
 .hero-banner {
   height: 500px;
   width: 100%;
   margin-bottom: 25px;
-  background-image:url(../images/02-hero-image.png);
+  background-image: url(../images/02-hero-image.png);
   background-size: cover;
   background-position: center;
-  }
-
-  .navigation {
-    position: absolute;
-    list-style-type: none;
-  
-  }
-
+}
+.navigation {
+  position: absolute;
+  list-style-type: none;
+}
 .banner-text {
   position: absolute;
   top: 25%;
   padding: 20px;
-  color: white; 
+  color: white;
   font-size: x-large;
-
 }
 .navlinks {
   display: flex;
@@ -72,47 +61,43 @@ header *{
   justify-content: space-between;
   width: 400px;
   padding-inline-start: 0px;
- }
-
- .navlinks li {
+}
+.navlinks li {
   margin-left: 0px;
   margin-right: 0px;
- }
-
-  .about {
-  padding: 70px;  
+}
+.about {
+  padding: 70px;
   padding-bottom: 100px;
-  border: solid coral
-  }
-
-  .work {
+  border: solid coral;
+}
+.work {
   background-color: lightgrey;
-  padding: 70px;  
+  padding: 70px;
   padding-bottom: 20px;
-  border: solid coral
-  }
-  
-  .flexbox-container {
+  border: solid coral;
+}
+.flexbox-container {
   background-color: lightgray;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   border: 3px solid orange;
-  } 
-
-  .flexbox-item-1 {
+  height: 800px;
+}
+.flexbox-item-1 {
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
   background-position: center;
   flex-wrap: wrap;
   width: 2000px;
-  height: 600px;
+  height: 400px;
   margin: 10px;
   border: 3px solid black;
-  
 }
-
-.flexbox-item-2, .flexbox-item-3, .flexbox-item-4 {
+.flexbox-item-2,
+.flexbox-item-3,
+.flexbox-item-4 {
   flex-wrap: wrap;
   flex-grow: 1;
   width: 300px;
@@ -122,48 +107,42 @@ header *{
   background-size: cover;
   background-position: center;
 }
-
-.car-text{
-  
+.car-text {
 }
-
-.flexbox-item-2{
+.flexbox-item-2 {
   background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.flexbox-item-3{
+.flexbox-item-3 {
   background-image: url(../images/02-portfolio-4.jpg);
   background-size: cover;
   background-position: center;
 }
-.flexbox-item-4{
+.flexbox-item-4 {
   background-image: url(../images/02-portfolio-1.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
-
 }
-
-
+.flexbox-container2 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 400px;
+}
 .contact h2 {
   padding: 10px;
   padding-top: 10px;
   margin: auto;
-
 }
-
 .contact-links {
-
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
-
 .contact-links li {
   list-style: none;
   display: flex;
-
+  
 }
